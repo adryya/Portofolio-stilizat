@@ -1,0 +1,59 @@
+p {
+    text-align: justify; /* Justificat textul în paragrafe */
+    line-height: 1.6; /* Înălțimea liniei pentru ușurință în citire */
+    margin-bottom: 20px; /* Spațiu liber între paragrafe */
+}
+
+h1 {
+    color: #370050; /* Culoare text violet */
+    text-decoration: underline overline; /* Subliniat cu o linie deasupra și sub text */
+    text-decoration-thickness: 2px; /* Grosimea liniilor de subliniere/deasupra */
+}
+
+h2 {
+    color: #370050; /* Culoare text violet */
+    font-style: italic; /* Text în italic pentru h2 */
+}
+
+a {
+    color: #17ab33;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px; /* Spațiu liber între elementele listei */
+}
+
+ul, ol {
+    margin-left: 20px; /* Indentarea listelor */
+}
+
+button {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffcc00ba, #00ff0db0); /* Alege culorile dorite */
+}
+    
+
+table{
+    background-color:#50000d90 ;
+}
+
+img {
+   
+    border: 1px solid #ddd;
+    max-width: 100%; /* Imagine responsive */
+    height: auto; /* Păstrarea proporțiilor imaginii */
+    display: block; /* Elimină spațiul gol de sub imagini */
+    margin: left; /* Centrare imagini și spațiu liber */
+    border-radius: 5px; /* Coloane rotunde */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Umbra box */
+
+}
